@@ -1,0 +1,24 @@
+.emoji-game-container {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+
+.emoji-game-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.emojis-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  max-width: 1200px;
+}

@@ -1,0 +1,76 @@
+.win-lose-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff33;
+  border: 1px solid #ffffff30;
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.game-status {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.score-label {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.score-value {
+  color: #6a59ff;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.play-again-button {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 24px;
+  cursor: pointer;
+  outline: none;
+  align-self: flex-start;
+}
+
+.win-lose-image {
+  width: 300px;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .win-lose-card {
+    flex-direction: column-reverse;
+    padding: 30px;
+    text-align: center;
+  }
+  .play-again-button {
+    align-self: center;
+  }
+  .win-lose-image {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+}
